@@ -1,0 +1,47 @@
+What is HTML (Hypertext Markup Language)?
+Why it is important?
+What it is used for?
+Markup - annotation and tags used for text (content or description) so that structure is defined.
+Hypertext - related to hyperlink, means many webpages and website are connected to each other
+
+HTML - 
+1. Basic building block
+2. Skeleton 
+3. Providing description of the webpages
+4. Browswer render(converting machine code to human understandable Language) HTML page to show the webpages.
+5. HTML + CSS + JS - Full stack application.
+6. Not case sensitive.
+
+
+Note: Do not need to remeber all the tags
+Note: Use w3school, mdn docs to learn abot more tags, css, js and all.
+
+
+Tags - 
+It is that annotation which tells browser how to render different elements.
+<p></p> - paragraph
+<img> - image tag
+<h1></h1> - heading tag
+
+
+Text Element - 1. Block element, 2. Inline element
+1. Block Element: paragraph, heading, article, etc.
+2. Inline Element: emphasis, strong, a, etc.
+
+
+Attribute - 
+1. these are important property for tags, using this tags work
+2. all html can have attribute
+3. provide additonal info about the element
+4. different tags have different property, some property is same for all tags like id, class etc.
+
+
+Head Tag -
+1. it contains meta information about the webpages
+2. Meta tag is used to information about webpage helps in building SEO friendly website.
+3. it is not displayed on the webpage
+4. keyword, author, viewport etc.
+
+
+
+
