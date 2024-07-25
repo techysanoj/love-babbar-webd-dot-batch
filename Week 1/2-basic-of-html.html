@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+    <!-- css -->
+<!-- <style>
+    table, tr, td, th{
+        border: 1px solid red;
+        border-collapse: collapse;
+    }
+</style> -->
+</head>
+
+<body style="margin-bottom: 100px;">
+    <!-- Paragraph -->
+    <p>This is paragraph</p>
+
+    <!-- Heading -->
+    <h1>Head</h1>
+    <h2>Head</h2>
+    <h3>Head</h3>
+    <h4>Head</h4>
+    <h5>Head</h5>
+    <h6>Head</h6>
+
+    <!-- Why not H7, H8, H9 and all - because its become too much smaller -->
+
+
+    <!-- Break Tag -->
+    <p>This is sanoj</p>
+    <br>
+    <p>Sanoj is good boy</p>
+    <!-- nested break -->
+    <p>Sanoj <br> is Good Guy</p>
+
+
+    <!-- anchor tag - link tag -->
+    <a href="https://google.com">Here go</a>
+    <br>
+    <br>
+    <!-- To open link in new tag -->
+    <a href="https://google.com" target="_blank">Here go</a>
+
+
+    <!-- Image tag -->
+    <br>
+    <br>
+    <!-- Height and width of image properties
+    px, %, vh, vp, rem, etc
+    -->
+    <img src="../Week 1/Images/onion-img.jpg" height="100px" width="100px"> 
+
+
+    <!-- to get horizontal line -->
+    <hr>
+
+
+    <!-- Poet problem MDN - it prints as its written in the paragraph using pre tag -->
+    <pre>
+        Hello,
+        My self Sanoj.
+        How are you
+    </pre>
+
+    <!-- Using inline css -->
+    <p style="color: red;">Hello all of you </p>
+    <h3 style="color: purple; font-size: 30px;">How are you? </h3>
+    <p style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 25px;">Align Text</p>
+
+
+    <!-- Formatting - like bold, italic, del, mark -->
+    <b><p>Hello</p></b>
+    <br>
+    <i>Hello</i>
+    <br>
+    <u>Hello</u>
+    <br>
+    <small>Check</small>
+    <br>
+    <del>This is wrong</del>
+    <br>
+    <mark>Marking</mark>
+    <br>
+    <!-- Superscript -->
+    <p>a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+    <!-- Subscript -->
+    <p>a<sub>2</sub> + b<sub>2</sub> = c<sub>2</sub></p>
+
+
+    <!-- List using single tag - li*n where n is number of items -->
+    <h2>Hello List</h2>
+    <ul>
+        <li>Chines</li>
+        <li>Momos</li>
+        <li>Chowmein</li>
+        <li>Burger</li>
+        <li>
+            <ol>
+                <li>Momos</li>
+                <li>Momos</li>
+            </ol>
+        </li>
+    </ul>
+
+
+    <!-- Tables - Most Important -->
+    <!-- <table> <tr - table row> <td - table data> 
+        th - for bold heading
+        table heading, and table summary
+        first row - in <thead>
+        last row - in <tfoot>    
+    -->
+    <br>
+    <br>
+    <caption>Check the table</caption>
+    <table >
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>700</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- Forms -->
+    <form>
+        <label for="username">UserName</label>
+        <input type="text" name="username">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+        <input type="text" name="Password">
+        <br>
+        <br>
+        <!-- <button>Submit now</button> -->
+    </form>
+
+    <table>
+        <tr>
+            <td>
+                Form to submit
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="username">UserName</label>
+                <input type="text" name="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Password">Password</label>
+                <input type="text" name="Password">
+                <!-- <input type="checkbox"> -->
+            </td>
+        </tr>
+        <tr>
+            <button>W</button>
+        </tr>
+    </table>
+
+
+    <h1>Welcome to new form</h1>
+
+    <form action="https://techiesanoj.blogspot.com" target="_blank" >
+        <label for="username">UserName</label>
+        <input type="text" name="username">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" name="Password">
+        <br>
+        <br>
+        <input type="submit" value="submit"></input>
+    </form>
+
+    
+</body>
+</html>
